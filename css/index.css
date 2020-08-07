@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+/* begin header styling */
+
+.head-wrapper{
+    width:100%;
+    margin: 3% 0;
+}
+
+.head-wrapper nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-wrapper nav a{
+    margin-top: 3%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+.header-img{
+    margin: 2% 0;
+}
+
+/* end header styling */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +129,58 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+  /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* begin boxes styling */
+
+.middle-content .boxes .box:nth-child(1){
+    background:teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background:gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background:coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background:crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background:forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background:darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background:dodgerblue;
+}
+
+/* end boxes styling */
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +195,52 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* begin about page styling */
+
+.about-text{
+    padding: 2%;
+    border-bottom: dashed black 1px;  
+}
+
+.info-boxes-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-boxes{
+    width:50%;
+    padding:1%;
+    border-bottom: dashed black 1px;
+    margin:1% 0;
+}
+
+.info-boxes img{
+    width:100%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.info-boxes a{
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 3% 4%;
+    margin: 2% 0;
+}
+
+.info-boxes p{
+    margin-bottom: 3%;
+}
+
+.bottom-text{
+    padding: 3%;
+}
+
+/* end about page styling */
 
 footer {
     width: 100%;
