@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border: blue 1px solid;
 }
 
 html, body {
@@ -76,7 +75,7 @@ p {
 
 .head-wrapper{
     width:100%;
-    margin: 2% 0;
+    margin: 3% 0;
 }
 
 .head-wrapper nav{
@@ -92,7 +91,7 @@ p {
 }
 
 .header-img{
-    margin: 3% 0;
+    margin: 2% 0;
 }
 
 /* end header styling */
@@ -180,6 +179,8 @@ p {
     background:dodgerblue;
 }
 
+/* end boxes styling */
+
 
 .bottom-content {
     display: flex;
@@ -194,6 +195,52 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* begin about page styling */
+
+.about-text{
+    padding: 2%;
+    border-bottom: dashed black 1px;  
+}
+
+.info-boxes-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-boxes{
+    width:50%;
+    padding:1%;
+    border-bottom: dashed black 1px;
+    margin:1% 0;
+}
+
+.info-boxes img{
+    width:100%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.info-boxes a{
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 3% 4%;
+    margin: 2% 0;
+}
+
+.info-boxes p{
+    margin-bottom: 3%;
+}
+
+.bottom-text{
+    padding: 3%;
+}
+
+/* end about page styling */
 
 footer {
     width: 100%;
